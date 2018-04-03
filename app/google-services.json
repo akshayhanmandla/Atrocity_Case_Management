@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1028186964082",
+    "firebase_url": "https://atrocity-f32ea.firebaseio.com",
+    "project_id": "atrocity-f32ea",
+    "storage_bucket": "atrocity-f32ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1028186964082:android:a718c124eb9bb008",
+        "android_client_info": {
+          "package_name": "com.testexample.atrocity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1028186964082-u7839e5jig5lu9jp4nj58vuihcmfbjen.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.testexample.atrocity",
+            "certificate_hash": "bbe0ae68094c538bfd3c58ea6784999e2b3780d1"
+          }
+        },
+        {
+          "client_id": "1028186964082-7i1jqunp9afb6ibc0trntn1i6vqs6nfk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXx09MT5x14hbTkH5_rbqCn4G1iBLM2oM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1028186964082-7i1jqunp9afb6ibc0trntn1i6vqs6nfk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

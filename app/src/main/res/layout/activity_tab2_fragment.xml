@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    tools:context="com.testexample.atrocity.Tab2fragment">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/firnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/Firnumber"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/PFID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/firnumber"
+        android:ems="10"
+        android:hint="@string/policeid"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/getstatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/PFID"
+        android:layout_marginTop="36dp"
+        android:background="@color/colorAccent"
+        android:text="@string/getstatus"
+
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@+id/getstatus"
+        android:layout_marginTop="25dp"
+
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:visibility="invisible"
+        android:layout_below="@+id/text2"
+        android:ems="8" />
+
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/editText2"
+        android:visibility="invisible"
+        android:ems="10"
+        android:hint="@string/comment"
+        android:inputType="number" />
+    <Button
+        android:id="@+id/btnsubmit"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_below="@+id/editText3"
+        android:layout_height="72dp"
+        android:layout_marginTop="10dp"
+        android:visibility="invisible"
+        android:background="@color/colorAccent"
+        android:text="@string/submit"
+        android:textColor="@android:color/white" />
+    <Button
+        android:id="@+id/urgent"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_below="@+id/btnsubmit"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:visibility="invisible"
+        android:background="@color/colorAccent"
+        android:text="@string/URGENT"
+        android:textColor="@android:color/white" />
+
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/urgent"
+        android:visibility="invisible"
+        android:ems="10"
+        android:hint="@string/criminalname"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/editText9"
+        android:visibility="invisible"
+        android:ems="10"
+        android:hint="@string/punishment"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+
+        android:layout_below="@+id/editText8"
+        android:visibility="invisible"
+        android:ems="10"
+        android:hint="@string/Date"
+        android:inputType="number" />
+    <Button
+        android:id="@+id/complete"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_below="@+id/editText10"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:visibility="invisible"
+        android:background="@color/colorAccent"
+        android:text="@string/complete"
+        android:textColor="@android:color/white" />
+    </RelativeLayout>
+</ScrollView>

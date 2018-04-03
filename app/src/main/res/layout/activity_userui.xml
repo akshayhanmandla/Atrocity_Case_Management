@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:fitsSystemWindows="true"
+    android:background="@drawable/u1"
+    tools:context=".Userui">
+
+
+
+    <include layout="@layout/content_main" />
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:fab="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/comicView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <terranovaproductions.newcomicreader.FloatingActionMenu
+            android:id="@+id/fab_menu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp">
+            <!--First button as menu button-->
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab_main"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_media_play"
+                fab:fabSize="normal"
+                />
+            <!-- Other button as menu items-->
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab_download"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_menu_view"
+                android:contentDescription="@string/firstatus"
+                android:paddingBottom="20dp"
+                fab:fabSize="mini"
+                />
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab_browser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_menu_agenda"
+                android:contentDescription="@string/list"
+                android:paddingBottom="20dp"
+                fab:fabSize="mini"
+                />
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab_map"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_media_play"
+                android:contentDescription="@string/map"
+                android:paddingBottom="20dp"
+                fab:fabSize="mini"
+                />
+
+        </terranovaproductions.newcomicreader.FloatingActionMenu>
+    </RelativeLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

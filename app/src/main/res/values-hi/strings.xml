@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--   Atrocity Dashboard + user dashboard-->
+    <string name="POLICE">सद्रक्षणाय खलनिग्रहणाय</string>
+    <string name="ATROCITY">अत्याचार प्रबंधन</string>
+    <string name="user">उपयोगकर्ता</string>
+    <string name="firstatus">एफ.आई.आर. स्थिति</string>
+    <string name="Police">पुलिस</string>
+<string name="SJSA">एस.जे.एस.ए.</string>
+    <string name="sjsa">सामाजिक न्याय और विशेष सहायता</string>
+    <string name="Payment">भुगतान</string>
+    <string name="payment">ज़रूरत लोगों की मदद करना</string>
+    <string name="FIRSTATUS">एफ.आई.आर. स्थिति</string>
+    <string name="Firnumber">एफ.आई.आर. संख्या</string>
+    <string name="submit">जमा करें</string>
+    <string name="enterpolicestationlocation">पुलिस थाना स्थान दर्ज करें</string>
+    <string name="policeid">पुलिस आईडी</string>
+    <string name="getstatus">स्थिति प्राप्त करें</string>
+    <string name="comment">यदि कोई मामला उसी स्थिति में बदलाव के लिए है</string>
+    <string name="URGENT">अति आवश्यक</string>
+    <string name="complete">पूर्ण</string>
+    <string name="Date">तारीख</string>
+    <string name="punishment">सजा का प्रकार</string>
+    <string name="FakeReportedCases">नकली रिपोर्ट किए गए मामले - तत्काल कार्रवाई करें</string>
+    <string name="getstarted">शुरू हो जाओ</string>
+    <string name="NEXT">आगामी</string>
+    <string name="SKIP">छोड़ें</string>
+    <string name="hello_blank_fragment">नमस्ते</string>
+    <string name="plocation">पुलिस स्टेशन स्थान</string>
+<!-- Police Module -->
+
+<!-- District view-->
+    <string name="Enterdistrictname">जिला नाम दर्ज करें</string>
+
+    <!-- Fake FIR-->
+    <string name="FakeFir">नकली एफ.आई.आर.</string>
+    <string name="isfirfake">क्या यह एफआईआर नकली है</string>
+
+    <string name="rating">आपकी रेटिंग यहां दिखाई देगी</string>
+
+    <string name="Register">रजिस्टर</string>
+    <string name="enterpolice">पुलिस थाना स्थान दर्ज करें</string>
+    <string name="name1">नाम</string>
+    <string name="address">पता</string>
+    <string name="phoneno">फ़ोन नंबर</string>
+    <string name="adharno">आधार संख्या</string>
+    <string name="registrationdate">पंजीकरण की तारीख</string>
+    <string name="IncidentDate">घटना दिनांक</string>
+<string name="IncidentTime">घटना समय</string>
+    <string name="IncidentPlace">घटनास्थल प्लेस</string>
+    <string name="criminalname">आपराधिक नाम</string>
+    <string name="stausofcase">मामले की स्थिति</string>
+    <string name="casenotation">केस नोटेशन</string>
+    <string name="hint_email" translatable="false">ईमेल</string>
+    <string name="hint_password" translatable="false">पासकोड</string>
+    <string name="btn_login" translatable="false">लॉग इन करें</string>
+    <string name="btn_link_to_register" translatable="false">सदस्य नहीं है? अभी साइनअप करें</string>
+<string name="search">खोज</string>
+    <string name="Hospitals">अस्पतालों</string>
+    <string name="app_name" translatable="false">अत्याचार प्रबंधन</string>
+
+    <string name="stage1">चरण 1</string>
+    <string name="stage2">चरण 2</string>
+    <string name="stage3">चरण 3</string>
+    <string name="CompleteorFake">पूर्ण या नकली</string>
+    <string name="list">सूची</string>
+    <string name="StatusofFirbystages">चरण द्वारा एफ.आई.आर. स्थिति</string>
+    <string name="Statistics">आंकड़े</string>
+    <string name="Feedback">प्रतिक्रिया</string>
+    <string name="map">नक्शा</string>
+
+</resources>

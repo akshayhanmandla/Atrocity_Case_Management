@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--   Atrocity Dashboard + user dashboard-->
+    <string name="POLICE">To Protect Good and To Punish Evil</string>
+    <string name="ATROCITY">Atrocity</string>
+    <string name="user">User</string>
+    <string name="firstatus">FIR Status</string>
+    <string name="FIRSTATUS">FIR STATUS</string>
+    <string name="Police">Police</string>
+    <string name="SJSA">SJSA</string>
+    <string name="sjsa">Social Justice and Special Assistance</string>
+    <string name="Payment">Payment</string>
+    <string name="payment">Helping Needy People</string>
+    <string name="Firnumber">Fir number</string>
+    <string name="submit">submit</string>
+    <string name="enterpolicestationlocation">enter police station location</string>
+    <string name="policeid">Police ID</string>
+    <string name="getstatus">Get Status</string>
+    <string name="comment">Comments if any for change in same status of Case</string>
+    <string name="URGENT">URGENT</string>
+    <string name="complete">complete</string>
+    <string name="Date">Date</string>
+    <string name="punishment">Type of Punishment</string>
+    <string name="FakeReportedCases">Fake Reported Cases - Take Immediate Action</string>
+    <string name="getstarted">Get Started</string>
+    <string name="NEXT">NEXT</string>
+    <string name="SKIP">SKIP</string>
+
+    <!-- Police Module -->
+
+    <!-- District view-->
+    <string name="Enterdistrictname">Enter district name</string>
+    <string name="FakeFir">Fake Fir</string>
+    <string name="isfirfake">Is this FIR Fake?</string>
+
+    <!-- feedback rating -->
+    <string name="rating">Your rating will appear here</string>
+
+    <string name="Register">Register</string>
+    <string name="enterpolice">enter police station location</string>
+    <string name="name1">Name</string>
+    <string name="address">Address</string>
+    <string name="phoneno">Phone Number</string>
+    <string name="adharno">Adhar Number</string>
+    <string name="registrationdate">Registration Date</string>
+    <string name="IncidentDate">Incident Date</string>
+    <string name="IncidentTime">Incident Time</string>
+
+
+    <string name="Victimname">Victim name</string>
+    <string name="Caretakername">Caretaker name</string>
+    <string name="Dissabilitytype">Dissability type</string>
+    <string name="Victimaddress">address</string>
+    <string name="CaretakerNumber">Phone No Number</string>
+    <string name="CertiId">Certi Id</string>
+    <string name="DocName">Doc Name</string>
+    <string name="DocNumber">Doc Number</string>
+    <string name="VictimDist">Victim Dist</string>
+
+
+    <string name="IncidentPlace">Incident Place</string>
+    <string name="criminalname">criminal name</string>
+    <string name="stausofcase">staus of case</string>
+    <string name="casenotation">case notation</string>
+
+    <string name="stage1">stage 1</string>
+    <string name="specialcases">Case Registered by caretaker</string>
+    <string name="stage2">stage 2</string>
+    <string name="stage3">stage 3</string>
+    <string name="CompleteorFake">Complete or Fake</string>
+    <string name="list">List</string>
+    <string name="StatusofFirbystages">Status of Fir by stages</string>
+    <string name="Statistics">Statistics</string>
+    <string name="Feedback">Feedback</string>
+    <string name="map">Map</string>
+
+
+    <string name="app_name" translatable="false">Atrocity</string>
+    <string name="hint_email" translatable="false">Email</string>
+    <string name="hint_password" translatable="false">Password</string>
+    <string name="hint_name" translatable="false">Fullname</string>
+    <string name="btn_login" translatable="false">LOGIN</string>
+    <string name="btn_register" translatable="false">REGISTER</string>
+    <string name="btn_link_to_register" translatable="false">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login" translatable="false">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="title_activity_nav">Nav</string>
+    <string name="Search">Search</string>
+    <string name="Hospitals">Hospitals</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+
+    <string name="success_login_msg">Login Successfull</string>
+    <string name="error_login_msg">Login UnSuccessfull</string>
+
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Hello Food!</string>
+    <string name="slide_1_desc">The easiest way to order food from your favourite restaurant!</string>
+
+    <string name="slide_2_title">Movie Tickets</string>
+    <string name="slide_2_desc">Book movie tickets for your family and friends!</string>
+
+    <string name="slide_3_title">Great Discounts</string>
+    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
+
+    <string name="slide_4_title">World Travel</string>
+    <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <string name="app_label">Search</string>
+
+    <string name="search_hint">Search Me</string>
+
+    <string name="search">Search</string>
+
+
+    <string name="phoneerror">please enter proper number</string>
+    <string name="nameerror">please enter proper name</string>
+    <string name="adharrror">invalid Adhar number</string>
+    <string name="firnoerror">please enter fir number</string>
+    <string name="plerror">please enter proper location</string>
+    <string name="incidentterror">please enter proper incident time</string>
+    <string name="Incidentderror">enter date</string>
+    <string name="incidentperror">please enter proper place</string>
+    <string name="regiserror">please enter proper date</string>
+    <string name="statuscaseerror">please enter case status</string>
+    <string name="casenotationerror">please enter case noation</string>
+    <string name="victimerror">enter criminal name</string>
+    <string name="crimanalerror">please enter criminal name</string>
+    <string name="addresserror">please enter proper address</string>
+    <string name="adhrnoerror">please enter</string>
+    <string name="plocation">Police Station Location</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_paymentstage1tab">paymentstage1tab</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_paymentstagetab2">paymentstagetab2</string>
+    <string name="title_activity_paymentstagetab3">paymentstagetab3</string>
+    <string name="title_activity_paymentfakeorcomplete">paymentfakeorcomplete</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_sjsastages">Sjsastages</string>
+
+</resources>

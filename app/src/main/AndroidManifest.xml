@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.testexample.atrocity">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Atrocity"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="android.app.searchable"
+            android:resource="@xml/searchable" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="Atrocity"
+            android:launchMode="singleTop"
+            android:screenOrientation="reverseLandscape"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name=".WelcomeActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".PoliceLogin"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".PoliceReg"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" />
+        <activity android:name=".PoliceLogin1" />
+        <activity android:name=".AtrocityDashboard" />
+        <activity android:name=".UserProfile" />
+        <activity android:name=".Nav" />
+        <activity android:name=".Notify" />
+        <activity android:name=".Policeui" />
+        <activity android:name=".Userui" />
+        <activity android:name=".Personalinfo" />
+        <activity android:name=".Moreinfo" />
+        <activity android:name=".StatusFir" />
+        <activity android:name=".Feedbackui" />
+        <activity android:name=".Sjsaui" />
+        <activity android:name=".Paymentui" />
+        <activity android:name=".Fakeform" />
+        <activity android:name=".Updatefir" />
+        <activity android:name=".SjsaLogin" />
+        <activity android:name=".PaymentLogin" />
+        <activity android:name=".PoliceStationList" />
+        <activity android:name=".Paymentui" />
+        <activity android:name=".GetInfo" />
+        <activity android:name=".PoliceFloaternew" />
+        <activity android:name=".DistrictView" />
+        <activity
+            android:name=".paymentstage1tab"
+            android:label="@string/title_activity_paymentstage1tab"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".paymentstagetab2"
+            android:label="@string/title_activity_paymentstagetab2"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".paymentstagetab3"
+            android:label="@string/title_activity_paymentstagetab3"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".paymentfakeorcomplete"
+            android:label="@string/title_activity_paymentfakeorcomplete"
+            android:theme="@style/AppTheme" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".listdata" />
+        <activity
+            android:name=".Sjsastages"
+            android:label="@string/title_activity_sjsastages"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Completeform" />
+        <activity android:name=".specialui" />
+        <activity android:name=".HelpActivity" />
+        <activity android:name=".PoliceFloaternew" />
+        <activity android:name=".LISTDATA1"></activity>
+    </application>
+
+</manifest>
